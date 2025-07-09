@@ -1,56 +1,47 @@
-Cybersecurity Beginner Python Projects  
+# 🛡️ Projets Débutants en Cybersécurité avec Python
+Bienvenue dans mon dépôt consacré à l’apprentissage des fondamentaux de la cybersécurité, illustrés par des projets simples, concrets et accessibles en Python.
+Mon objectif à travers ce projet est de développer mes compétences en sécurité informatique tout en consolidant ma maîtrise de Python, grâce à des cas pratiques directement applicables au monde réel.
 
-A collection of beginner-friendly cybersecurity projects written in Python. These projects help learners understand key security concepts like encryption, password security, brute-force attacks, packet sniffing, and log analysis.
+---
 
+## 📂 Catégories de Projets
 
-### 📂Project Categories
-####  **Encryption & Hashing**
-- [Caesar Cipher] – Encrypts and decrypts messages using the Caesar cipher.
-- [Hashing Using SHA-256] – Demonstrates secure hashing technique.
-- [Password Strength Checker] – Evaluates password complexity.
+### 🔐 Chiffrement & Hachage
+- **Chiffrement César** : Chiffrement et déchiffrement de messages avec la méthode César.
+- **Hachage avec SHA-256** : Démonstration d'un hachage sécurisé.
+- **Vérificateur de robustesse de mot de passe** : Analyse la complexité des mots de passe.
 
-####  **Network Security**
-- [Packet Sniffer] – Captures network packets for analysis.
-- [Simple Port Scanner] – Scans open ports.
-- [Wordlist Generator] – Generates wordlists for security testing.
+---
 
-####  **Authentication Security**
-- [Brute Force Attack Simulator] – Simulates password brute-force attacks.
-- [Password Checker] – Checks password strength and breaches.
-- [Simple Keylogger] – Logs keystrokes (for ethical research).
+### 🌐 Sécurité Réseau
+- **Sniffer de paquets** : Capture et analyse de paquets réseau.
+- **Scanner de ports simple** : Détection des ports ouverts sur un hôte.
+- **Générateur de wordlist** : Création de listes de mots pour les tests de sécurité.
 
-####  **Log Analysis & Detection**
-- [Log Analysis] – Parses system logs for security monitoring.
-- [File Integrity Checker] – Detects unauthorized file changes.
+---
 
-###  **Threat Detection**
-- [Email Spoof Detector] – Parses and detects spoofing across multiple email headers in a single file.
+### 🔑 Sécurité des Authentifications
+- **Simulateur d'attaque par force brute** : Simulation d'une attaque par mot de passe.
+- **Contrôleur de mot de passe** : Vérifie la solidité et les éventuelles failles d'un mot de passe.
+- **Keylogger simple** : Enregistre les frappes clavier pour des usages éthiques et éducatifs.
 
-####  **Data Files**
-- `Data/keylog.txt`
-- `Data/logs.txt`
-- `Data/wordlist.txt`
-- `Threat_Detection/Email_Spoofed_Detector/sample_email_header.txt`
+---
 
+### 📊 Analyse de Logs & Détection
+- **Analyse de journaux système** : Lecture et analyse des logs pour la détection d'incidents.
+- **Contrôle d'intégrité des fichiers** : Détection des modifications non autorisées sur des fichiers sensibles.
 
+---
 
-### ** Clone This Repository**
-```sh
-git clone https://github.com/Dynamic-prakriti/cybersecurity-python-programs.git
-cd Path_to_the_repository
+### 🚨 Détection de Menaces
+- **Détecteur de spoofing d'email** : Analyse des en-têtes d'emails pour détecter un possible spoofing.
 
+---
 
-### ** To run script**
-```sh
-python script_name.py
+## 🗄️ Fichiers de Données Inclus
 
+- `Data/keylog.txt` — Exemple de log de keylogger
+- `Data/logs.txt` — Fichier de logs à analyser
+- `Data/wordlist.txt` — Exemple de wordlist pour tests
+- `Threat_Detection/Email_Spoofed_Detector/sample_email_header.txt` — Exemple d’en-tête d’email pour détection de spoofing
 
-Ethical & Legal Disclaimer
-This repository is intended for educational and ethical research purposes only. The projects in this repository should never be used for:
-
-- Unauthorized hacking or illegal penetration testing.
-- Gaining unauthorized access to systems or networks.
-- Violating any laws or terms of service of any organization.
-
-License
-This repository is distributed under the MIT License, meaning you can use, modify, and distribute the code for ethical purposes only.
